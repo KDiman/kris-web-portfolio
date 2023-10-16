@@ -75,7 +75,7 @@
 .backHome {
   position: relative;
   top: 30px;
-  left: 40px;
+  left: 200px;
   color: beige;
   font-size: 1rem;
   cursor: pointer;
@@ -170,7 +170,7 @@
 
   .backHome {
     top: 10px;
-    left: 70px; 
+    left: 100px; 
     font-size: 2vh; 
   }
 
@@ -183,14 +183,14 @@
   }
 
   .projectItem .projectTitle {
-    font-size: 3vh; /* Adjust font size for mobile */
+    font-size: 3vh; 
   }
 
   .projectItem .projectDescription {
-    font-size: 2vh; /* Adjust font size for mobile */
+    font-size: 2vh; 
   }
 
   .projectItem .visitLink {
-    font-size: 2vh; /* Adjust font size for mobile */
+    font-size: 2vh; 
   }
 }
