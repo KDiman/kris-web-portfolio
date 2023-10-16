@@ -9,7 +9,7 @@
   padding: 10px;
   border-radius: 5px;
   color: #302f2f;
-  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4)
 }
 .bottomRightIcon {
   position: fixed;
