@@ -89,32 +89,34 @@
   transform: translate(0, 15%);
 }
 
-/* Style for the container div */
+
 .projectContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+ 
 }
 
 
 .projectContainer :hover {
   background-color: #f5882e;
   transform: scale(1.1);
-  transition: transform 0.3s ease;
+  transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
-/* Style for each project item */
 .projectItem {
-  width: 50vh;
-  margin: 10px; 
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  width: 40vh;
+  margin: 10px;
+  padding: 20px;
+  border: 5px solid #ccc;
+  border-radius: 20px;
   text-align: center;
   background-color: #bfdb38;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(2, 2, 2, 1);
   
 }
+
+
 
 .projectItem img {
   max-width: 100%;
@@ -144,6 +146,7 @@
   font-weight: bold;
   display: block;
   transition: color 0.3s;
+  font-size: 3vh;
 }
 
 .project-item .visitLink:hover {
