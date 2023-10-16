@@ -22,6 +22,7 @@ body {
     padding: 5px;
     margin: 0;
     font-size: 4vh;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5)
   }
 
   .nameColor{

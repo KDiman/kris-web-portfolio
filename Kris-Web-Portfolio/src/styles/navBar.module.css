@@ -14,6 +14,7 @@
 
   font-weight: bold;
   cursor: pointer;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4)
 }
 
 .aboutMe:hover {
@@ -25,6 +26,7 @@
 .workExperience {
   font-weight: bold;
   cursor: pointer;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4)
  
 }
 
@@ -37,6 +39,7 @@
 .contacts{
     font-weight: bold;
     cursor: pointer;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4)
   }
 .contacts:hover {
   color: #fc7300;
