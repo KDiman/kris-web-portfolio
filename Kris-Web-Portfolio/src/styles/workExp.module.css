@@ -44,9 +44,10 @@
   }
   @media (max-width: 900px) {
     .workExperienceContainer {
-      max-width: 90%; /* Increase max width for better readability on mobile */
-      top: 50%; /* Adjust top position for mobile */
+      max-width: 90%; 
+      top: 50%;
       width: 50%;
+      left:45%
     }
   
     .workExperienceTitle {

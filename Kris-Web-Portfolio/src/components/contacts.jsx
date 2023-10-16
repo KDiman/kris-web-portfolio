@@ -42,16 +42,16 @@ useEffect(() => {
       <div>
         <h3>Contact Me</h3>
       </div>
-      <div>
+      <div className={styleContacts.contactInfo}>
         <div>
-          <TfiLocationPin />
+          <TfiLocationPin className={styleContacts.contactIcons}/>
           Address: Bulacan, Philippines
         </div>
         <div>
-          <BsPhone /> +63 917 114 4971
+          <BsPhone className={styleContacts.contactIcons} /> +63 917 114 4971
         </div>
         <div>
-          <AiOutlineMail />
+          <AiOutlineMail  className={styleContacts.contactIcons}/>
           Email: krisaldiman@gmail.com
         </div>
       </div>

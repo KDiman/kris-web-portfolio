@@ -56,6 +56,7 @@
   display: inline-flex;
   flex-direction: column;
   font-size: 2vh;
+  padding: 5px;
 }
 
 .htmlIcon {
@@ -80,11 +81,12 @@
 }
 
 @media (max-width: 900px) {
-  /* Adjust styles for screens with a maximum width of 768px (typical for mobile devices) */
+  
   .aboutMeContainer {
-    max-width: 100%; /* Increase max width for better readability on mobile */
-    padding: 10px; /* Reduce padding for mobile */
+    max-width: 100%; 
+    padding: 10px; 
     width: 70%;
+    left: 46%;
   }
 
   .aboutMeTitle {

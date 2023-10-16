@@ -5,7 +5,7 @@ body {
   
   .container {
     position: absolute;
-    bottom: 0%;
+    bottom: 10%;
     left: 5%;
     color: rgb(22, 21, 21);
     padding: 0;
@@ -23,12 +23,26 @@ body {
     margin: 0;
     font-size: 4vh;
   }
+
+  .nameColor{
+    color:#E25E3E;
+  }
+  .aposColor{
+    color:#363062;
+  }
+
+
+  h1 {
+    font-size: 3rem; 
+    font-weight: bold; 
+    margin: 10px 0; 
+  }
   
   @media (max-width: 900px) {
     .container {
       width: 90%;
       left: 5%;
-      bottom: 35%;
+      bottom: 50%;
       left: 10%;
       position: fixed;
     }

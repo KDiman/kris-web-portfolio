@@ -18,7 +18,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  transition: all 0.5s ease-in-out; /* Increase duration and use ease-in-out timing function */
+  transition: all 0.5s ease-in-out; 
 }
 
 .logo {
@@ -27,7 +27,7 @@
   width: 12vh;
   left: 4%;
   top: 5%;
-  transition: all 0.5s ease-in-out; /* Increase duration and use ease-in-out timing function */
+  transition: all 0.5s ease-in-out; 
 }
 
 @media (max-width: 900px) {
