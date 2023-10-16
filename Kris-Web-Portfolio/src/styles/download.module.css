@@ -10,10 +10,10 @@
 .downloadCvButton {
   padding: 10px 20px;
   font-size: 4vh;
-  color: #16ff00;
-  border-radius: 30px;
+  color: #4bcd91;
+
   cursor: pointer;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
 
 .downloadCvButton:hover {
@@ -29,15 +29,21 @@
 @media (max-width: 900px) {
   .downloadCvContainer {
     position: fixed;
-    bottom: 30px; 
-    top: auto; 
-    left: 20px; 
-    
+    bottom: 10px;
+    top: auto;
+    left: 10px;
   }
   .downloadCvButton {
     font-size: 2vh;
-    color: #0F6292;
+    color: #E55604;
 
+    width: fit-content;
+    border-radius: 30px;
+    padding: 5px;
+    text-shadow: 5px 5px 10px rgba(221, 217, 217, 0.3);
+    background-color: rgba(142, 137, 137, 0.119);
+
+    font-weight: bold; /* Make the font thicker */
   }
 
   .downloadIcon {

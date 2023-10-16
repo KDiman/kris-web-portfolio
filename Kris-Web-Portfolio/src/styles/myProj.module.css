@@ -158,14 +158,18 @@
 @media (max-width: 900px) {
   .bottomRightText {
     font-size: 2vh; 
+    
   
   }
 
   .bottomRightIcon {
-   
-    bottom: 40px;
-   
-    right: 40px;
+    background-color:rgba(142, 137, 137, 0.119);
+    bottom: 12px;
+    color: #E55604;
+    right: 10px;
+    width: fit-content;
+    border-radius: 30px;
+    padding: 5px;
   }
 
   .iframeContainer {

@@ -3,7 +3,7 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { BiLogoCss3 } from "react-icons/bi";
 import { DiJavascript } from "react-icons/di";
 import { BiLogoNodejs } from "react-icons/bi";
-import { BiLogoMongodb } from "react-icons/bi";
+import { BiLogoMongodb , BiLogoReact} from "react-icons/bi";
 import { useAnimate , motion, usePresence,  delay } from "framer-motion"
 import {  useEffect } from "react";
 
@@ -69,6 +69,11 @@ useEffect(() => {
             {" "}
             <DiJavascript className={styleAboutMe.jsIcon} />
             JavaScript
+          </div>
+          <div className={styleAboutMe.iconContainer}>
+            {" "}
+            <BiLogoReact className={styleAboutMe.reactIcon} />
+            React
           </div>
         </div>
 
