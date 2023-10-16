@@ -8,6 +8,7 @@
   font-size: 3vh;
   padding: 10px;
   border-radius: 5px;
+  color: #302f2f;
   /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
 }
 .bottomRightIcon {
@@ -16,6 +17,7 @@
   align-items: center;
   display: flex;
   right: 20px;
+  color: #302f2f;
 }
 .bottomRightText :hover {
   color: #fc7300;
